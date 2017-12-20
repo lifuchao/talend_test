@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_BBbzUOShEee1g6AG67CB_g" confirmationNeeded="false" name="Default">
-  <contextParameter xmi:id="_OhqPUOVrEeejZqccGaSuMw" comment="F5 context test" name="cmp_table_name" prompt="SOURCE_TABLE?" promptNeeded="true" type="id_String" value="&quot;gsxt_companies_cmp&quot;"/>
-  <contextParameter xmi:id="_QOzGkOVrEeejZqccGaSuMw" comment="target test" name="target_table_name" prompt="TARGET_TABLE?" promptNeeded="true" type="id_String" value="&quot;temp_cmp&quot;"/>
-</talendfile:ContextType>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_BBbzUOShEee1g6AG67CB_g" confirmationNeeded="false" name="dev">
+    <contextParameter xmi:id="_OhqPUOVrEeejZqccGaSuMw" comment="F5 context test" name="cmp_table_name" prompt="SOURCE_TABLE?" promptNeeded="true" type="id_String" value="&quot;gsxt_companies_cmp&quot;"/>
+    <contextParameter xmi:id="_QOzGkOVrEeejZqccGaSuMw" comment="target test" name="target_table_name" prompt="TARGET_TABLE?" promptNeeded="true" type="id_String" value="&quot;temp_cmp&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_QNbwcOVyEeejZqccGaSuMw" confirmationNeeded="false" name="prod">
+    <contextParameter xmi:id="_QNbwceVyEeejZqccGaSuMw" comment="F5 context test" name="cmp_table_name" prompt="SOURCE_TABLE?" promptNeeded="true" type="id_String" value="&quot;gsxt_companies_cmp&quot;"/>
+    <contextParameter xmi:id="_QNbwcuVyEeejZqccGaSuMw" comment="target test" name="target_table_name" prompt="TARGET_TABLE?" promptNeeded="true" type="id_String" value="&quot;temp_cmp&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_QNbwc-VyEeejZqccGaSuMw" confirmationNeeded="false" name="test">
+    <contextParameter xmi:id="_QNbwdOVyEeejZqccGaSuMw" comment="F5 context test" name="cmp_table_name" prompt="SOURCE_TABLE?" promptNeeded="true" type="id_String" value="&quot;gsxt_companies_cmp&quot;"/>
+    <contextParameter xmi:id="_QNbwdeVyEeejZqccGaSuMw" comment="target test" name="target_table_name" prompt="TARGET_TABLE?" promptNeeded="true" type="id_String" value="&quot;temp_cmp&quot;"/>
+  </talendfile:ContextType>
+</xmi:XMI>
