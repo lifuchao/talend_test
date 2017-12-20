@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_xBy4AOVqEeejZqccGaSuMw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_xBy4AeVqEeejZqccGaSuMw" comment="" name="crack1_mysql_conn_AdditionalParams" prompt="crack1_mysql_conn_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true&amp;characterEncoding=UTF-8"/>
+  <contextParameter xmi:id="_xBy4AuVqEeejZqccGaSuMw" comment="" name="crack1_mysql_conn_Password" prompt="crack1_mysql_conn_Password?" promptNeeded="false" type="id_Password" value="98fsLkUn+6QV6fg68eBSBCimPNfSCfas"/>
+  <contextParameter xmi:id="_xBy4A-VqEeejZqccGaSuMw" comment="" name="crack1_mysql_conn_Server" prompt="crack1_mysql_conn_Server?" promptNeeded="false" type="id_String" value="172.31.10.65"/>
+  <contextParameter xmi:id="_xBy4BOVqEeejZqccGaSuMw" comment="" name="crack1_mysql_conn_Port" prompt="crack1_mysql_conn_Port?" promptNeeded="false" type="id_String" value="3306"/>
+  <contextParameter xmi:id="_xBy4BeVqEeejZqccGaSuMw" comment="" name="crack1_mysql_conn_Login" prompt="crack1_mysql_conn_Login?" promptNeeded="false" type="id_String" value="root"/>
+  <contextParameter xmi:id="_xBy4BuVqEeejZqccGaSuMw" comment="" name="crack1_mysql_conn_Database" prompt="crack1_mysql_conn_Database?" promptNeeded="false" type="id_String" value="prodaas_gsxt_anhui"/>
+</talendfile:ContextType>
