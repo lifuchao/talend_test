@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="dev" jobType="Standard">
   <context confirmationNeeded="false" name="dev">
-    <contextParameter comment="F5 context test" name="cmp_table_name" prompt="SOURCE_TABLE?" promptNeeded="true" repositoryContextId="_BAkQoOShEee1g6AG67CB_g" type="id_String" value="&quot;gsxt_companies_cmp&quot;"/>
-    <contextParameter comment="target test" name="target_table_name" prompt="TARGET_TABLE?" promptNeeded="true" repositoryContextId="_BAkQoOShEee1g6AG67CB_g" type="id_String" value="&quot;temp_cmp&quot;"/>
     <contextParameter comment="" name="crack1_mysql_conn1_AdditionalParams" prompt="crack1_mysql_conn1_AdditionalParams?" promptNeeded="false" repositoryContextId="_wOEDEOVsEeejZqccGaSuMw" type="id_String" value="noDatetimeStringSync=true&amp;characterEncoding=UTF-8"/>
-    <contextParameter comment="" name="crack1_mysql_conn1_Server" prompt="crack1_mysql_conn1_Server?" promptNeeded="false" repositoryContextId="_wOEDEOVsEeejZqccGaSuMw" type="id_String" value="54.223.148.118"/>
-    <contextParameter comment="" name="crack1_mysql_conn1_Login" prompt="crack1_mysql_conn1_Login?" promptNeeded="false" repositoryContextId="_wOEDEOVsEeejZqccGaSuMw" type="id_String" value="root"/>
     <contextParameter comment="" name="crack1_mysql_conn1_Database" prompt="crack1_mysql_conn1_Database?" promptNeeded="false" repositoryContextId="_wOEDEOVsEeejZqccGaSuMw" type="id_String" value="prodaas_gsxt_anhui"/>
+    <contextParameter comment="" name="crack1_mysql_conn1_Login" prompt="crack1_mysql_conn1_Login?" promptNeeded="false" repositoryContextId="_wOEDEOVsEeejZqccGaSuMw" type="id_String" value="root"/>
     <contextParameter comment="" name="crack1_mysql_conn1_Password" prompt="crack1_mysql_conn1_Password?" promptNeeded="false" repositoryContextId="_wOEDEOVsEeejZqccGaSuMw" type="id_Password" value="98fsLkUn+6QV6fg68eBSBCimPNfSCfas"/>
     <contextParameter comment="" name="crack1_mysql_conn1_Port" prompt="crack1_mysql_conn1_Port?" promptNeeded="false" repositoryContextId="_wOEDEOVsEeejZqccGaSuMw" type="id_String" value="3306"/>
+    <contextParameter comment="" name="crack1_mysql_conn1_Server" prompt="crack1_mysql_conn1_Server?" promptNeeded="false" repositoryContextId="_wOEDEOVsEeejZqccGaSuMw" type="id_String" value="54.223.148.118"/>
+    <contextParameter comment="F5 context test" name="cmp_table_name" prompt="SOURCE_TABLE?" promptNeeded="true" repositoryContextId="_BAkQoOShEee1g6AG67CB_g" type="id_String" value="&quot;gsxt_companies_cmp&quot;"/>
+    <contextParameter comment="target test" name="target_table_name" prompt="TARGET_TABLE?" promptNeeded="true" repositoryContextId="_BAkQoOShEee1g6AG67CB_g" type="id_String" value="&quot;temp_cmp&quot;"/>
   </context>
   <context confirmationNeeded="false" name="prod">
-    <contextParameter comment="F5 context test" name="cmp_table_name" prompt="SOURCE_TABLE?" promptNeeded="true" repositoryContextId="_BAkQoOShEee1g6AG67CB_g" type="id_String" value="&quot;gsxt_companies_cmp&quot;"/>
-    <contextParameter comment="target test" name="target_table_name" prompt="TARGET_TABLE?" promptNeeded="true" repositoryContextId="_BAkQoOShEee1g6AG67CB_g" type="id_String" value="&quot;temp_cmp&quot;"/>
     <contextParameter comment="" name="crack1_mysql_conn1_AdditionalParams" prompt="crack1_mysql_conn1_AdditionalParams?" promptNeeded="false" repositoryContextId="_wOEDEOVsEeejZqccGaSuMw" type="id_String" value="noDatetimeStringSync=true&amp;characterEncoding=UTF-8"/>
-    <contextParameter comment="" name="crack1_mysql_conn1_Server" prompt="crack1_mysql_conn1_Server?" promptNeeded="false" repositoryContextId="_wOEDEOVsEeejZqccGaSuMw" type="id_String" value="54.223.148.118"/>
-    <contextParameter comment="" name="crack1_mysql_conn1_Login" prompt="crack1_mysql_conn1_Login?" promptNeeded="false" repositoryContextId="_wOEDEOVsEeejZqccGaSuMw" type="id_String" value="root"/>
     <contextParameter comment="" name="crack1_mysql_conn1_Database" prompt="crack1_mysql_conn1_Database?" promptNeeded="false" repositoryContextId="_wOEDEOVsEeejZqccGaSuMw" type="id_String" value="prodaas_gsxt_anhui"/>
+    <contextParameter comment="" name="crack1_mysql_conn1_Login" prompt="crack1_mysql_conn1_Login?" promptNeeded="false" repositoryContextId="_wOEDEOVsEeejZqccGaSuMw" type="id_String" value="root"/>
     <contextParameter comment="" name="crack1_mysql_conn1_Password" prompt="crack1_mysql_conn1_Password?" promptNeeded="false" repositoryContextId="_wOEDEOVsEeejZqccGaSuMw" type="id_Password" value="98fsLkUn+6QV6fg68eBSBCimPNfSCfas"/>
     <contextParameter comment="" name="crack1_mysql_conn1_Port" prompt="crack1_mysql_conn1_Port?" promptNeeded="false" repositoryContextId="_wOEDEOVsEeejZqccGaSuMw" type="id_String" value="3306"/>
+    <contextParameter comment="" name="crack1_mysql_conn1_Server" prompt="crack1_mysql_conn1_Server?" promptNeeded="false" repositoryContextId="_wOEDEOVsEeejZqccGaSuMw" type="id_String" value="172.31.10.65"/>
+    <contextParameter comment="F5 context test" name="cmp_table_name" prompt="SOURCE_TABLE?" promptNeeded="true" repositoryContextId="_BAkQoOShEee1g6AG67CB_g" type="id_String" value="&quot;gsxt_companies_cmp&quot;"/>
+    <contextParameter comment="target test" name="target_table_name" prompt="TARGET_TABLE?" promptNeeded="true" repositoryContextId="_BAkQoOShEee1g6AG67CB_g" type="id_String" value="&quot;temp_cmp&quot;"/>
   </context>
   <context confirmationNeeded="false" name="test">
     <contextParameter comment="F5 context test" name="cmp_table_name" prompt="SOURCE_TABLE?" promptNeeded="true" type="id_String" value="&quot;gsxt_companies_cmp&quot;"/>
     <contextParameter comment="target test" name="target_table_name" prompt="TARGET_TABLE?" promptNeeded="true" type="id_String" value="&quot;temp_cmp&quot;"/>
     <contextParameter comment="" name="crack1_mysql_conn1_AdditionalParams" prompt="crack1_mysql_conn1_AdditionalParams?" promptNeeded="false" repositoryContextId="_wOEDEOVsEeejZqccGaSuMw" type="id_String" value="noDatetimeStringSync=true&amp;characterEncoding=UTF-8"/>
-    <contextParameter comment="" name="crack1_mysql_conn1_Server" prompt="crack1_mysql_conn1_Server?" promptNeeded="false" repositoryContextId="_wOEDEOVsEeejZqccGaSuMw" type="id_String" value="54.223.148.118"/>
-    <contextParameter comment="" name="crack1_mysql_conn1_Login" prompt="crack1_mysql_conn1_Login?" promptNeeded="false" repositoryContextId="_wOEDEOVsEeejZqccGaSuMw" type="id_String" value="root"/>
     <contextParameter comment="" name="crack1_mysql_conn1_Database" prompt="crack1_mysql_conn1_Database?" promptNeeded="false" repositoryContextId="_wOEDEOVsEeejZqccGaSuMw" type="id_String" value="prodaas_gsxt_anhui"/>
+    <contextParameter comment="" name="crack1_mysql_conn1_Login" prompt="crack1_mysql_conn1_Login?" promptNeeded="false" repositoryContextId="_wOEDEOVsEeejZqccGaSuMw" type="id_String" value="root"/>
     <contextParameter comment="" name="crack1_mysql_conn1_Password" prompt="crack1_mysql_conn1_Password?" promptNeeded="false" repositoryContextId="_wOEDEOVsEeejZqccGaSuMw" type="id_Password" value="98fsLkUn+6QV6fg68eBSBCimPNfSCfas"/>
     <contextParameter comment="" name="crack1_mysql_conn1_Port" prompt="crack1_mysql_conn1_Port?" promptNeeded="false" repositoryContextId="_wOEDEOVsEeejZqccGaSuMw" type="id_String" value="3306"/>
+    <contextParameter comment="" name="crack1_mysql_conn1_Server" prompt="crack1_mysql_conn1_Server?" promptNeeded="false" repositoryContextId="_wOEDEOVsEeejZqccGaSuMw" type="id_String" value="172.31.10.65"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms512M&quot;,&quot;-Xmx2048M&quot;]}" show="false"/>
