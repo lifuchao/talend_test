@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_wOUhwOVsEeejZqccGaSuMw" confirmationNeeded="false" name="Default">
-  <contextParameter xmi:id="_wOUhweVsEeejZqccGaSuMw" comment="" name="crack1_mysql_conn1_AdditionalParams" prompt="crack1_mysql_conn1_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true&amp;characterEncoding=UTF-8"/>
-  <contextParameter xmi:id="_wOUhwuVsEeejZqccGaSuMw" comment="" name="crack1_mysql_conn1_Password" prompt="crack1_mysql_conn1_Password?" promptNeeded="false" type="id_Password" value="98fsLkUn+6QV6fg68eBSBCimPNfSCfas"/>
-  <contextParameter xmi:id="_wOUhw-VsEeejZqccGaSuMw" comment="" name="crack1_mysql_conn1_Server" prompt="crack1_mysql_conn1_Server?" promptNeeded="false" type="id_String" value="54.223.148.118"/>
-  <contextParameter xmi:id="_wOUhxOVsEeejZqccGaSuMw" comment="" name="crack1_mysql_conn1_Port" prompt="crack1_mysql_conn1_Port?" promptNeeded="false" type="id_String" value="3306"/>
-  <contextParameter xmi:id="_wOUhxeVsEeejZqccGaSuMw" comment="" name="crack1_mysql_conn1_Login" prompt="crack1_mysql_conn1_Login?" promptNeeded="false" type="id_String" value="root"/>
-  <contextParameter xmi:id="_wOUhxuVsEeejZqccGaSuMw" comment="" name="crack1_mysql_conn1_Database" prompt="crack1_mysql_conn1_Database?" promptNeeded="false" type="id_String" value="prodaas_gsxt_anhui"/>
-</talendfile:ContextType>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_wOUhwOVsEeejZqccGaSuMw" confirmationNeeded="false" name="dev">
+    <contextParameter xmi:id="_wOUhweVsEeejZqccGaSuMw" comment="" name="crack1_mysql_conn1_AdditionalParams" prompt="crack1_mysql_conn1_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true&amp;characterEncoding=UTF-8"/>
+    <contextParameter xmi:id="_wOUhwuVsEeejZqccGaSuMw" comment="" name="crack1_mysql_conn1_Password" prompt="crack1_mysql_conn1_Password?" promptNeeded="false" type="id_Password" value="98fsLkUn+6QV6fg68eBSBCimPNfSCfas"/>
+    <contextParameter xmi:id="_wOUhw-VsEeejZqccGaSuMw" comment="" name="crack1_mysql_conn1_Server" prompt="crack1_mysql_conn1_Server?" promptNeeded="false" type="id_String" value="54.223.148.118"/>
+    <contextParameter xmi:id="_wOUhxOVsEeejZqccGaSuMw" comment="" name="crack1_mysql_conn1_Port" prompt="crack1_mysql_conn1_Port?" promptNeeded="false" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_wOUhxeVsEeejZqccGaSuMw" comment="" name="crack1_mysql_conn1_Login" prompt="crack1_mysql_conn1_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_wOUhxuVsEeejZqccGaSuMw" comment="" name="crack1_mysql_conn1_Database" prompt="crack1_mysql_conn1_Database?" promptNeeded="false" type="id_String" value="prodaas_gsxt_anhui"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_HY1uUOVyEeejZqccGaSuMw" confirmationNeeded="false" name="prod">
+    <contextParameter xmi:id="_HY1uUeVyEeejZqccGaSuMw" comment="" name="crack1_mysql_conn1_AdditionalParams" prompt="crack1_mysql_conn1_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true&amp;characterEncoding=UTF-8"/>
+    <contextParameter xmi:id="_HY1uUuVyEeejZqccGaSuMw" comment="" name="crack1_mysql_conn1_Password" prompt="crack1_mysql_conn1_Password?" promptNeeded="false" type="id_Password" value="98fsLkUn+6QV6fg68eBSBCimPNfSCfas"/>
+    <contextParameter xmi:id="_HY1uU-VyEeejZqccGaSuMw" comment="" name="crack1_mysql_conn1_Server" prompt="crack1_mysql_conn1_Server?" promptNeeded="false" type="id_String" value="172.31.10.65"/>
+    <contextParameter xmi:id="_HY1uVOVyEeejZqccGaSuMw" comment="" name="crack1_mysql_conn1_Port" prompt="crack1_mysql_conn1_Port?" promptNeeded="false" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_HY1uVeVyEeejZqccGaSuMw" comment="" name="crack1_mysql_conn1_Login" prompt="crack1_mysql_conn1_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_HY1uVuVyEeejZqccGaSuMw" comment="" name="crack1_mysql_conn1_Database" prompt="crack1_mysql_conn1_Database?" promptNeeded="false" type="id_String" value="prodaas_gsxt_anhui"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_HY1uV-VyEeejZqccGaSuMw" confirmationNeeded="false" name="test">
+    <contextParameter xmi:id="_HY1uWOVyEeejZqccGaSuMw" comment="" name="crack1_mysql_conn1_AdditionalParams" prompt="crack1_mysql_conn1_AdditionalParams?" promptNeeded="false" type="id_String" value="noDatetimeStringSync=true&amp;characterEncoding=UTF-8"/>
+    <contextParameter xmi:id="_HY1uWeVyEeejZqccGaSuMw" comment="" name="crack1_mysql_conn1_Password" prompt="crack1_mysql_conn1_Password?" promptNeeded="false" type="id_Password" value="98fsLkUn+6QV6fg68eBSBCimPNfSCfas"/>
+    <contextParameter xmi:id="_HY1uWuVyEeejZqccGaSuMw" comment="" name="crack1_mysql_conn1_Server" prompt="crack1_mysql_conn1_Server?" promptNeeded="false" type="id_String" value="172.31.10.65"/>
+    <contextParameter xmi:id="_HY1uW-VyEeejZqccGaSuMw" comment="" name="crack1_mysql_conn1_Port" prompt="crack1_mysql_conn1_Port?" promptNeeded="false" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_HY1uXOVyEeejZqccGaSuMw" comment="" name="crack1_mysql_conn1_Login" prompt="crack1_mysql_conn1_Login?" promptNeeded="false" type="id_String" value="root"/>
+    <contextParameter xmi:id="_HY1uXeVyEeejZqccGaSuMw" comment="" name="crack1_mysql_conn1_Database" prompt="crack1_mysql_conn1_Database?" promptNeeded="false" type="id_String" value="prodaas_gsxt_anhui"/>
+  </talendfile:ContextType>
+</xmi:XMI>
