@@ -3,4 +3,5 @@
   <contextParameter xmi:id="_BBbzUeShEee1g6AG67CB_g" comment="waiwang ip" name="crack1_ip_outer" prompt="crack1_ip_outer?" promptNeeded="false" type="id_String" value="&quot;54.223.148.118&quot;"/>
   <contextParameter xmi:id="_BBbzUuShEee1g6AG67CB_g" comment="neiwang ip" name="crack1_ip_inner" prompt="crack1_ip_inner?" promptNeeded="false" type="id_String" value="&quot;172.31.10.65&quot;"/>
   <contextParameter xmi:id="_OhqPUOVrEeejZqccGaSuMw" comment="F5 context test" name="cmp_table_name" prompt="SOURCE_TABLE?" promptNeeded="true" type="id_String" value="&quot;gsxt_companies_cmp&quot;"/>
+  <contextParameter xmi:id="_QOzGkOVrEeejZqccGaSuMw" comment="target test" name="target_table_name" prompt="TARGET_TABLE?" promptNeeded="true" type="id_String" value="&quot;temp_cmp&quot;"/>
 </talendfile:ContextType>
