@@ -10,4 +10,11 @@
 		<nature>org.talend.core.talendnature</nature>
 		<nature>com.oaklandsw.transform.runtime.nature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>.test_dq_report-20171222-1740-00053.pdf</name>
+			<type>1</type>
+			<location>C:/Users/lfc/Desktop/test_dq_report-20171222-1740-00053.pdf</location>
+		</link>
+	</linkedResources>
 </projectDescription>
