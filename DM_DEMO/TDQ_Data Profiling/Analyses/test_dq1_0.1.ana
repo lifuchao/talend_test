@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <dataquality.analysis:Analysis xmi:id="_nRZC4Ob0EeeTT685a_I6tA" name="test_dq1" creationDate="2017-12-22T16:46:32.301+0800" defaultContext="Default">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmlns:dataquality.reports="http://dataquality.reports" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_nRZC4Ob0EeeTT685a_I6tA" name="test_dq1" supplierDependency="_HAmfQOb4EeeTT685a_I6tA" creationDate="2017-12-22T16:46:32.301+0800" defaultContext="Default">
     <clientDependency href="../../metadata/connections/crack1_mysql_conn_0.1.item#_TCa6EObyEeeZb42P6E7oGw"/>
     <taggedValue xmi:id="_nRZC4eb0EeeTT685a_I6tA" tag="Status" value="development"/>
     <taggedValue xmi:id="_nRZC4ub0EeeTT685a_I6tA" tag="Author" value="lifuchao@prodaas.com"/>
@@ -82,4 +82,7 @@
       </expressions>
     </ranges>
   </dataquality.domain:Domain>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_HAmfQOb4EeeTT685a_I6tA" kind="Usage" supplier="_nRZC4Ob0EeeTT685a_I6tA">
+    <client xsi:type="dataquality.reports:TdReport" href="../Reports/test_dq1_0.1.rep#_HAlRIOb4EeeTT685a_I6tA"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_HAlRIOb4EeeTT685a_I6tA" name="test_dq1" creationDate="2017-12-22T17:11:32.641+0800">
+  <clientDependency href="../Analyses/test_dq1_0.1.ana#_HAmfQOb4EeeTT685a_I6tA"/>
+  <taggedValue xmi:id="_HAlRIeb4EeeTT685a_I6tA" tag="OutputFolder" value=""/>
+  <taggedValue xmi:id="_HAlRIub4EeeTT685a_I6tA" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_HAlRI-b4EeeTT685a_I6tA" tag="REP_DBINFO_DBVERSION" value=""/>
+  <taggedValue xmi:id="_HAlRJOb4EeeTT685a_I6tA" tag="REP_DBINFO_HOST" value=""/>
+  <taggedValue xmi:id="_HAlRJeb4EeeTT685a_I6tA" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_HAlRJub4EeeTT685a_I6tA" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
+  <taggedValue xmi:id="_HAlRJ-b4EeeTT685a_I6tA" tag="REP_DBINFO_SCHEMA" value=""/>
+  <taggedValue xmi:id="_HAlRKOb4EeeTT685a_I6tA" tag="REP_DBINFO_USER" value="sa"/>
+  <taggedValue xmi:id="_HAlRKeb4EeeTT685a_I6tA" tag="REP_DBINFO_PASSWORD" value="yJKHKGWEAQw="/>
+  <taggedValue xmi:id="_HAlRKub4EeeTT685a_I6tA" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:D:\Program Files (x86)\Talend-Studio\workspace\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_HAlRK-b4EeeTT685a_I6tA" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
+  <taggedValue xmi:id="_HAlRLOb4EeeTT685a_I6tA" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_HAlRLeb4EeeTT685a_I6tA" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_HAlRLub4EeeTT685a_I6tA" tag="Author" value="lifuchao@prodaas.com"/>
+  <analysisMap xmi:id="_HAl4MOb4EeeTT685a_I6tA" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/test_dq1_0.1.ana#_nRZC4Ob0EeeTT685a_I6tA"/>
+  </analysisMap>
+</dataquality.reports:TdReport>
