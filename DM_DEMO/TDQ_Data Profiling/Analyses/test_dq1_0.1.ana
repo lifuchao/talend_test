@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmi:id="_nRZC4Ob0EeeTT685a_I6tA" name="test_dq1" creationDate="2017-12-22T16:46:32.301+0800">
+  <taggedValue xmi:id="_nRZC4eb0EeeTT685a_I6tA" tag="Status" value="development"/>
+  <taggedValue xmi:id="_nRZC4ub0EeeTT685a_I6tA" tag="Author" value="lifuchao@prodaas.com"/>
+  <taggedValue xmi:id="_nRZC4-b0EeeTT685a_I6tA" tag="Purpose" value="test"/>
+  <taggedValue xmi:id="_nRZC5Ob0EeeTT685a_I6tA" tag="Description"/>
+  <taggedValue xmi:id="_nRZC5eb0EeeTT685a_I6tA" tag="Version" value="0.1"/>
+  <context xmi:id="_nRZC5ub0EeeTT685a_I6tA"/>
+  <results xmi:id="_nRZC5-b0EeeTT685a_I6tA">
+    <resultMetadata xmi:id="_nRZC6Ob0EeeTT685a_I6tA"/>
+    <indicators xsi:type="dataquality.indicators.columnset:SimpleStatIndicator" xmi:id="_nRZC6eb0EeeTT685a_I6tA">
+      <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Multiple_Column_Simple_Statistics_0.1.definition#_JoeMkM-jEd6qN5aKpPNGTg"/>
+      <rowCountIndicator xmi:id="_nRZC6ub0EeeTT685a_I6tA"/>
+      <uniqueCountIndicator xmi:id="_nRZC6-b0EeeTT685a_I6tA"/>
+      <distinctCountIndicator xmi:id="_nRZC7Ob0EeeTT685a_I6tA"/>
+      <duplicateCountIndicator xmi:id="_nRZC7eb0EeeTT685a_I6tA"/>
+    </indicators>
+  </results>
+  <parameters xmi:id="_nRZC7ub0EeeTT685a_I6tA" analysisType="Column Set Analysis"/>
+</dataquality.analysis:Analysis>
