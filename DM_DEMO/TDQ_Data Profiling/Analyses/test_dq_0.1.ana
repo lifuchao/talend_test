@@ -8,10 +8,10 @@
     <taggedValue xmi:id="_RMrgdObyEeeZb42P6E7oGw" tag="Description" value=""/>
     <taggedValue xmi:id="_RMrgdebyEeeZb42P6E7oGw" tag="Version" value="0.1"/>
     <taggedValue xmi:id="_TCVagebyEeeZb42P6E7oGw" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
-    <taggedValue xmi:id="_TCVagubyEeeZb42P6E7oGw" tag="PREVIEW_ROW_NUMBER" value="50"/>
-    <taggedValue xmi:id="_TCbhIObyEeeZb42P6E7oGw" tag="Is Use Sample Data" value="true"/>
+    <taggedValue xmi:id="_TCVagubyEeeZb42P6E7oGw" tag="PREVIEW_ROW_NUMBER" value=""/>
+    <taggedValue xmi:id="_TCbhIObyEeeZb42P6E7oGw" tag="Is Use Sample Data" value="false"/>
     <taggedValue xmi:id="_TCcIMObyEeeZb42P6E7oGw" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
-    <taggedValue xmi:id="_kyozYObyEeeZb42P6E7oGw" tag="false" value="true"/>
+    <taggedValue xmi:id="_kyozYObyEeeZb42P6E7oGw" tag="false" value="false"/>
     <context xmi:id="_RMrgdubyEeeZb42P6E7oGw">
       <connection href="../../metadata/connections/crack1_mysql_conn_0.1.item#_CahTsObyEeeZb42P6E7oGw"/>
       <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDC8ObyEeeZb42P6E7oGw"/>
@@ -48,8 +48,8 @@
       <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDbObyEeeZb42P6E7oGw"/>
     </context>
     <results xmi:id="_RMrgd-byEeeZb42P6E7oGw">
-      <resultMetadata xmi:id="_RMrgeObyEeeZb42P6E7oGw" executionDate="2017-12-22T16:35:22.988+0800" executionDuration="563" message="" executionNumber="3" lastRunOk="true" lastExecutionNumberOk="3"/>
-      <indicators xsi:type="dataquality.indicators.columnset:SimpleStatIndicator" xmi:id="_RMrgeebyEeeZb42P6E7oGw" count="50" computed="true" storeData="true" listRows="ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001757200135B4C6A6176612E6C616E672E4F626A6563743B90CE589F1073296C02000078700000000078" uniqueCount="50" distinctCount="50">
+      <resultMetadata xmi:id="_RMrgeObyEeeZb42P6E7oGw" executionDate="2017-12-22T16:35:41.289+0800" executionDuration="563" message="" executionNumber="3" lastRunOk="true" lastExecutionNumberOk="3"/>
+      <indicators xsi:type="dataquality.indicators.columnset:SimpleStatIndicator" xmi:id="_RMrgeebyEeeZb42P6E7oGw" computed="true" storeData="true" listRows="ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001757200135B4C6A6176612E6C616E672E4F626A6563743B90CE589F1073296C02000078700000000078" uniqueCount="50" distinctCount="50">
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Multiple_Column_Simple_Statistics_0.1.definition#_JoeMkM-jEd6qN5aKpPNGTg"/>
         <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDC8ObyEeeZb42P6E7oGw"/>
         <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDC9ObyEeeZb42P6E7oGw"/>
@@ -131,7 +131,7 @@
         </duplicateCountIndicator>
       </indicators>
     </results>
-    <parameters xmi:id="_RMt8tObyEeeZb42P6E7oGw" dataFilter="_UHQbMObyEeeZb42P6E7oGw" analysisType="Column Set Analysis" executionLanguage="Java"/>
+    <parameters xmi:id="_RMt8tObyEeeZb42P6E7oGw" dataFilter="_UHQbMObyEeeZb42P6E7oGw" analysisType="Column Set Analysis"/>
     <contextType xmi:id="_TCVagObyEeeZb42P6E7oGw" confirmationNeeded="false" name="Default"/>
   </dataquality.analysis:Analysis>
   <dataquality.domain:Domain xmi:id="_UHQbMObyEeeZb42P6E7oGw" name="test_dq">
