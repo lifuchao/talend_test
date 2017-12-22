@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <TalendMetadata:DatabaseConnection xmi:id="_CahTsObyEeeZb42P6E7oGw" name="crack1_mysql_conn" supplierDependency="_TCa6EObyEeeZb42P6E7oGw" id="_2NlcwObxEeeZb42P6E7oGw" label="crack1_mysql_conn" dataPackage="_Cp5McObyEeeZb42P6E7oGw" contextName="dev" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://54.223.148.118:3306/prodaas_gsxt_anhui?characterEncoding=UTF-8" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="98fsLkUn+6QV6fg68eBSBCimPNfSCfas" ServerName="54.223.148.118" DatasourceName="" FileFieldName="" SID="prodaas_gsxt_anhui" SqlSynthax="SQL 语句须被指定" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="characterEncoding=UTF-8" StandardSQL="true" SQLMode="false" UiSchema="">
-    <taggedValue xmi:id="_CahTsebyEeeZb42P6E7oGw" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_CahTsebyEeeZb42P6E7oGw" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_Cc22AObyEeeZb42P6E7oGw" tag="package filter" value=""/>
-    <taggedValue xmi:id="_Cc88oObyEeeZb42P6E7oGw" tag="Status" value="development"/>
+    <taggedValue xmi:id="_Cc88oObyEeeZb42P6E7oGw" tag="Status" value=""/>
     <taggedValue xmi:id="_Cc88oebyEeeZb42P6E7oGw" tag="Version" value="0.1"/>
-    <taggedValue xmi:id="_Cc88oubyEeeZb42P6E7oGw" tag="Purpose" value="test dq"/>
+    <taggedValue xmi:id="_Cc88oubyEeeZb42P6E7oGw" tag="Purpose" value=""/>
     <taggedValue xmi:id="_Cc88o-byEeeZb42P6E7oGw" tag="Description" value=""/>
-    <taggedValue xmi:id="_Cc88pObyEeeZb42P6E7oGw" tag="Author" value="lifuchao@prodaas.com"/>
+    <taggedValue xmi:id="_Cc88pObyEeeZb42P6E7oGw" tag="Author" value=""/>
     <taggedValue xmi:id="_Cc88pebyEeeZb42P6E7oGw" tag="otherParameter"/>
     <taggedValue xmi:id="_CkDDIObyEeeZb42P6E7oGw" tag="DB ProductName" value="MySQL"/>
     <taggedValue xmi:id="_CkDDIebyEeeZb42P6E7oGw" tag="DB ProductVersion" value="5.5.55-0ubuntu0.14.04.1"/>
