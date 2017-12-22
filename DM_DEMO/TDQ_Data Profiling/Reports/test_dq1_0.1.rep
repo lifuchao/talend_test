@@ -1,21 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_HAlRIOb4EeeTT685a_I6tA" name="test_dq1" creationDate="2017-12-22T17:11:32.641+0800">
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.reports="http://dataquality.reports" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmi:id="_HAlRIOb4EeeTT685a_I6tA" name="test_dq1" creationDate="2017-12-22T17:11:32.641+0800" defaultContext="Default">
   <clientDependency href="../Analyses/test_dq1_0.1.ana#_HAmfQOb4EeeTT685a_I6tA"/>
-  <taggedValue xmi:id="_HAlRIeb4EeeTT685a_I6tA" tag="OutputFolder" value=""/>
-  <taggedValue xmi:id="_HAlRIub4EeeTT685a_I6tA" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
-  <taggedValue xmi:id="_HAlRI-b4EeeTT685a_I6tA" tag="REP_DBINFO_DBVERSION" value=""/>
-  <taggedValue xmi:id="_HAlRJOb4EeeTT685a_I6tA" tag="REP_DBINFO_HOST" value=""/>
-  <taggedValue xmi:id="_HAlRJeb4EeeTT685a_I6tA" tag="REP_DBINFO_PORT" value=""/>
+  <taggedValue xmi:id="_HAlRIeb4EeeTT685a_I6tA" tag="OutputFolder" value="C:\Users\lfc\Desktop"/>
+  <taggedValue xmi:id="_HAlRIub4EeeTT685a_I6tA" tag="REP_DBINFO_DBTYPE" value="MySQL"/>
+  <taggedValue xmi:id="_HAlRI-b4EeeTT685a_I6tA" tag="REP_DBINFO_DBVERSION" value="MYSQL_5"/>
+  <taggedValue xmi:id="_HAlRJOb4EeeTT685a_I6tA" tag="REP_DBINFO_HOST" value="54.223.148.118"/>
+  <taggedValue xmi:id="_HAlRJeb4EeeTT685a_I6tA" tag="REP_DBINFO_PORT" value="3306"/>
   <taggedValue xmi:id="_HAlRJub4EeeTT685a_I6tA" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
   <taggedValue xmi:id="_HAlRJ-b4EeeTT685a_I6tA" tag="REP_DBINFO_SCHEMA" value=""/>
-  <taggedValue xmi:id="_HAlRKOb4EeeTT685a_I6tA" tag="REP_DBINFO_USER" value="sa"/>
-  <taggedValue xmi:id="_HAlRKeb4EeeTT685a_I6tA" tag="REP_DBINFO_PASSWORD" value="yJKHKGWEAQw="/>
-  <taggedValue xmi:id="_HAlRKub4EeeTT685a_I6tA" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:D:\Program Files (x86)\Talend-Studio\workspace\TDQ_reporting_db\talend_dq"/>
-  <taggedValue xmi:id="_HAlRK-b4EeeTT685a_I6tA" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
-  <taggedValue xmi:id="_HAlRLOb4EeeTT685a_I6tA" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_HAlRKOb4EeeTT685a_I6tA" tag="REP_DBINFO_USER" value="root"/>
+  <taggedValue xmi:id="_HAlRKeb4EeeTT685a_I6tA" tag="REP_DBINFO_PASSWORD" value="98fsLkUn+6QV6fg68eBSBCimPNfSCfas"/>
+  <taggedValue xmi:id="_HAlRKub4EeeTT685a_I6tA" tag="REP_DBINFO_URL" value="jdbc:mysql://54.223.148.118:3306/talend_dq?characterEncoding=UTF8"/>
+  <taggedValue xmi:id="_HAlRK-b4EeeTT685a_I6tA" tag="REP_DBINFO_DRIVER" value="org.gjt.mm.mysql.Driver"/>
+  <taggedValue xmi:id="_HAlRLOb4EeeTT685a_I6tA" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.MySQLDialect"/>
   <taggedValue xmi:id="_HAlRLeb4EeeTT685a_I6tA" tag="REP_PASSWORD_CONTEXT" value="false"/>
   <taggedValue xmi:id="_HAlRLub4EeeTT685a_I6tA" tag="Author" value="lifuchao@prodaas.com"/>
+  <taggedValue xmi:id="_QKk0IOb7EeeTT685a_I6tA" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_QKlbMOb7EeeTT685a_I6tA" tag="Description" value=""/>
+  <taggedValue xmi:id="_QKmCQOb7EeeTT685a_I6tA" tag="Status" value="development"/>
+  <taggedValue xmi:id="_QKnQYOb7EeeTT685a_I6tA" tag="OutputFileName" value="test_dq_report"/>
+  <taggedValue xmi:id="_QKnQYeb7EeeTT685a_I6tA" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_QKnQYub7EeeTT685a_I6tA" tag="OutputType" value="pdf"/>
+  <taggedValue xmi:id="_QKn3cOb7EeeTT685a_I6tA" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_QKsv8eb7EeeTT685a_I6tA" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <presentationParams xmi:id="_QKqTsOb7EeeTT685a_I6tA" type="BOTTOM_MIDDLE_PRESENTATIONKEY">
+    <formula xmi:id="_QKq6wOb7EeeTT685a_I6tA">
+      <expression xsi:type="relational:TdExpression" xmi:id="_QKq6web7EeeTT685a_I6tA" body=""/>
+    </formula>
+  </presentationParams>
+  <presentationParams xmi:id="_QKq6wub7EeeTT685a_I6tA" type="TOP_RIGHT_PRESENTATIONKEY">
+    <formula xmi:id="_QKq6w-b7EeeTT685a_I6tA">
+      <expression xsi:type="relational:TdExpression" xmi:id="_QKq6xOb7EeeTT685a_I6tA" body="Creation Date"/>
+    </formula>
+  </presentationParams>
   <analysisMap xmi:id="_HAl4MOb4EeeTT685a_I6tA" mustRefresh="true" reportType="Basic">
     <analysis href="../Analyses/test_dq1_0.1.ana#_nRZC4Ob0EeeTT685a_I6tA"/>
   </analysisMap>
+  <context xmi:id="_QKsv8Ob7EeeTT685a_I6tA" confirmationNeeded="false" name="Default"/>
 </dataquality.reports:TdReport>
