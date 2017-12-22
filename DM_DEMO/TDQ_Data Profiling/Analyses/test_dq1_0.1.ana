@@ -14,75 +14,13 @@
     <taggedValue xmi:id="_zjNkYOb1EeeTT685a_I6tA" tag="false" value="true"/>
     <context xmi:id="_nRZC5ub0EeeTT685a_I6tA">
       <connection href="../../metadata/connections/crack1_mysql_conn_0.1.item#_CahTsObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDC8ObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDC9ObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDC-ObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDC_ObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDAObyEeeZb42P6E7oGw"/>
       <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDBObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDCObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDDObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDEObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDFObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDGObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDHObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDIObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDJObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDKObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDLObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDMObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDNObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDOObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDPObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDQObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDRObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDSObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDTObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDUObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDVObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDWObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDXObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDYObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDZObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDaObyEeeZb42P6E7oGw"/>
-      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDbObyEeeZb42P6E7oGw"/>
     </context>
     <results xmi:id="_nRZC5-b0EeeTT685a_I6tA">
-      <resultMetadata xmi:id="_nRZC6Ob0EeeTT685a_I6tA" executionDate="2017-12-22T17:00:21.534+0800" executionDuration="1808" message="" executionNumber="3" lastRunOk="true" lastExecutionNumberOk="3"/>
-      <indicators xsi:type="dataquality.indicators.columnset:SimpleStatIndicator" xmi:id="_nRZC6eb0EeeTT685a_I6tA" count="500" computed="true" storeData="true" listRows="ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001757200135B4C6A6176612E6C616E672E4F626A6563743B90CE589F1073296C02000078700000000078" uniqueCount="500" distinctCount="500">
+      <resultMetadata xmi:id="_nRZC6Ob0EeeTT685a_I6tA" executionDate="2017-12-22T17:01:39.132+0800" executionDuration="610" message="" executionNumber="4" lastRunOk="true" lastExecutionNumberOk="4"/>
+      <indicators xsi:type="dataquality.indicators.columnset:SimpleStatIndicator" xmi:id="_nRZC6eb0EeeTT685a_I6tA" count="500" computed="true" storeData="true" listRows="ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001757200135B4C6A6176612E6C616E672E4F626A6563743B90CE589F1073296C02000078700000000078" uniqueCount="6" distinctCount="20">
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Multiple_Column_Simple_Statistics_0.1.definition#_JoeMkM-jEd6qN5aKpPNGTg"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDC8ObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDC9ObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDC-ObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDC_ObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDAObyEeeZb42P6E7oGw"/>
         <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDBObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDCObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDDObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDEObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDFObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDGObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDHObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDIObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDJObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDKObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDLObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDMObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDNObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDOObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDPObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDQObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDRObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDSObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDTObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDUObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDVObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDWObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDXObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDYObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDZObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDaObyEeeZb42P6E7oGw"/>
-        <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDbObyEeeZb42P6E7oGw"/>
         <rowCountIndicator xmi:id="_nRZC6ub0EeeTT685a_I6tA" count="500" computed="true">
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
           <builtInIndicatorDefinition xmi:id="_0zHGAOb1EeeTT685a_I6tA" name="Row Count" label="Row Count">
@@ -91,7 +29,7 @@
             <sqlGenericExpression xmi:id="_0zHGA-b1EeeTT685a_I6tA" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
           </builtInIndicatorDefinition>
         </rowCountIndicator>
-        <uniqueCountIndicator xmi:id="_nRZC6-b0EeeTT685a_I6tA" count="500" computed="true" uniqueValueCount="500">
+        <uniqueCountIndicator xmi:id="_nRZC6-b0EeeTT685a_I6tA" count="500" computed="true" uniqueValueCount="6">
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Unique_Count_0.1.definition#_ccHq0RF2Ed2PKb6nEJEvhw"/>
           <builtInIndicatorDefinition xmi:id="_0zaA8Ob1EeeTT685a_I6tA" name="Unique Count" label="Unique Count">
             <taggedValue xmi:id="_0zaA8eb1EeeTT685a_I6tA" tag="Description" value="counts the number of unique rows (i.e. distinct rows with only one instance: rows that are not duplicated)"/>
@@ -105,7 +43,7 @@
             <sqlGenericExpression xmi:id="_0zaA-eb1EeeTT685a_I6tA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) = 1)  myquery" language="Hive" version=""/>
           </builtInIndicatorDefinition>
         </uniqueCountIndicator>
-        <distinctCountIndicator xmi:id="_nRZC7Ob0EeeTT685a_I6tA" count="500" computed="true" distinctValueCount="500">
+        <distinctCountIndicator xmi:id="_nRZC7Ob0EeeTT685a_I6tA" count="500" computed="true" distinctValueCount="20">
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
           <builtInIndicatorDefinition xmi:id="_0zNzsOb1EeeTT685a_I6tA" name="Distinct Count" label="Distinct Count">
             <taggedValue xmi:id="_0zNzseb1EeeTT685a_I6tA" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
@@ -113,7 +51,7 @@
             <sqlGenericExpression xmi:id="_0zNzs-b1EeeTT685a_I6tA" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
           </builtInIndicatorDefinition>
         </distinctCountIndicator>
-        <duplicateCountIndicator xmi:id="_nRZC7eb0EeeTT685a_I6tA" count="500" computed="true" duplicateValueCount="0">
+        <duplicateCountIndicator xmi:id="_nRZC7eb0EeeTT685a_I6tA" count="500" computed="true" duplicateValueCount="14">
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
           <builtInIndicatorDefinition xmi:id="_0zT6UOb1EeeTT685a_I6tA" name="Duplicate Count" label="Duplicate Count">
             <taggedValue xmi:id="_0zT6Ueb1EeeTT685a_I6tA" tag="Description" value="counts the number of duplicate rows. This number and the number of unique data equals the number of distinct rows"/>
