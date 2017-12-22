@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
-  <TalendMetadata:DatabaseConnection xmi:id="_CahTsObyEeeZb42P6E7oGw" name="crack1_mysql_conn" supplierDependency="_TCa6EObyEeeZb42P6E7oGw" id="_2NlcwObxEeeZb42P6E7oGw" label="crack1_mysql_conn" dataPackage="_Cp5McObyEeeZb42P6E7oGw" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://54.223.148.118:3306/prodaas_gsxt_anhui?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="98fsLkUn+6QV6fg68eBSBCimPNfSCfas" ServerName="54.223.148.118" DatasourceName="" FileFieldName="" SID="prodaas_gsxt_anhui" SqlSynthax="SQL 语句须被指定" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
-    <taggedValue xmi:id="_CahTsebyEeeZb42P6E7oGw" tag="Is Conn Need Reload" value="false"/>
+  <TalendMetadata:DatabaseConnection xmi:id="_CahTsObyEeeZb42P6E7oGw" name="crack1_mysql_conn" supplierDependency="_TCa6EObyEeeZb42P6E7oGw" id="_2NlcwObxEeeZb42P6E7oGw" label="crack1_mysql_conn" dataPackage="_Cp5McObyEeeZb42P6E7oGw" ContextMode="true" ContextId="_NQ3DwOb1EeeTT685a_I6tA" contextName="dev" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://54.223.148.118:3306/prodaas_gsxt_anhui?noDatetimeStringSync=true&amp;characterEncoding=UTF-8" dbVersionString="MYSQL_5" Port="context.crack1_mysql_conn_Port" Username="context.crack1_mysql_conn_Login" Password="context.crack1_mysql_conn_Password" ServerName="context.crack1_mysql_conn_Server" DatasourceName="" FileFieldName="" SID="context.crack1_mysql_conn_Database" SqlSynthax="SQL 语句须被指定" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="context.crack1_mysql_conn_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_CahTsebyEeeZb42P6E7oGw" tag="Is Conn Need Reload" value="true"/>
     <taggedValue xmi:id="_Cc22AObyEeeZb42P6E7oGw" tag="package filter" value=""/>
     <taggedValue xmi:id="_Cc88oObyEeeZb42P6E7oGw" tag="Status" value="development"/>
     <taggedValue xmi:id="_Cc88oebyEeeZb42P6E7oGw" tag="Version" value="0.1"/>
@@ -12,7 +12,8 @@
     <taggedValue xmi:id="_CkDDIObyEeeZb42P6E7oGw" tag="DB ProductName" value="MySQL"/>
     <taggedValue xmi:id="_CkDDIebyEeeZb42P6E7oGw" tag="DB ProductVersion" value="5.5.55-0ubuntu0.14.04.1"/>
     <taggedValue xmi:id="_CkDDIubyEeeZb42P6E7oGw" tag="DB IdentifierQuoteString" value="`"/>
-    <parameters xmi:id="_CahTsubyEeeZb42P6E7oGw" key="CONN_PARA_KEY_USERNAME" value="root"/>
+    <parameters xmi:id="_CahTsubyEeeZb42P6E7oGw" key="CONN_PARA_KEY_USERNAME" value="context.crack1_mysql_conn_Login"/>
+    <parameters xmi:id="_3R__wOb0EeeTT685a_I6tA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_Cp5McObyEeeZb42P6E7oGw" name="prodaas_gsxt_anhui" dataManager="_CahTsObyEeeZb42P6E7oGw">
     <ownedElement xsi:type="relational:TdTable" xmi:id="_LbwDoebyEeeZb42P6E7oGw" name="annual_report_assurances_arpa" id="_K0BVQObyEeeZb42P6E7oGw" label="annual_report_assurances_arpa" tableType="TABLE">
