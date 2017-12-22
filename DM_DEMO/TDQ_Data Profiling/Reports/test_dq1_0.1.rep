@@ -36,6 +36,6 @@
   <analysisMap xmi:id="_HAl4MOb4EeeTT685a_I6tA" mustRefresh="true" reportType="Basic">
     <analysis href="../Analyses/test_dq1_0.1.ana#_nRZC4Ob0EeeTT685a_I6tA"/>
   </analysisMap>
-  <ExecInformations xmi:id="_MC5-sOb8EeeTT685a_I6tA" executionDate="2017-12-22T17:40:46.526+0800" executionDuration="733" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+  <ExecInformations xmi:id="_MC5-sOb8EeeTT685a_I6tA" executionDate="2017-12-22T17:46:13.216+0800" executionDuration="218" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
   <context xmi:id="_QKsv8Ob7EeeTT685a_I6tA" confirmationNeeded="false" name="Default"/>
 </dataquality.reports:TdReport>
