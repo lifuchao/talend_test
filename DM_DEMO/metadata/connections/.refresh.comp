@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.objectmodel.core="http:///orgomg/cwm/objectmodel/core.ecore" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_BMQlQOb8EeeTT685a_I6tA" name="crack1_mysql_conn" supplierDependency="_BMQlTub8EeeTT685a_I6tA" id="_2NlcwObxEeeZb42P6E7oGw" label="crack1_mysql_conn" dataPackage="_BMQlT-b8EeeTT685a_I6tA" contextName="dev" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://54.223.148.118:3306/prodaas_gsxt_anhui?characterEncoding=UTF-8" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="98fsLkUn+6QV6fg68eBSBCimPNfSCfas" ServerName="54.223.148.118" DatasourceName="" FileFieldName="" SID="prodaas_gsxt_anhui" SqlSynthax="SQL 语句须被指定" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="characterEncoding=UTF-8" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_BMQlQeb8EeeTT685a_I6tA" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_BMQlQub8EeeTT685a_I6tA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_BMQlQ-b8EeeTT685a_I6tA" tag="Status" value="development"/>
+    <taggedValue xmi:id="_BMQlROb8EeeTT685a_I6tA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_BMQlReb8EeeTT685a_I6tA" tag="Purpose" value="test dq"/>
+    <taggedValue xmi:id="_BMQlRub8EeeTT685a_I6tA" tag="Description" value=""/>
+    <taggedValue xmi:id="_BMQlR-b8EeeTT685a_I6tA" tag="Author" value="lifuchao@prodaas.com"/>
+    <taggedValue xmi:id="_BMQlSOb8EeeTT685a_I6tA" tag="otherParameter"/>
+    <taggedValue xmi:id="_BMQlSeb8EeeTT685a_I6tA" tag="DB ProductName" value="MySQL"/>
+    <taggedValue xmi:id="_BMQlSub8EeeTT685a_I6tA" tag="DB ProductVersion" value="5.5.55-0ubuntu0.14.04.1"/>
+    <taggedValue xmi:id="_BMQlS-b8EeeTT685a_I6tA" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_BMQlTOb8EeeTT685a_I6tA" key="CONN_PARA_KEY_USERNAME" value="root"/>
+    <parameters xmi:id="_BMQlTeb8EeeTT685a_I6tA" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_BMQlTub8EeeTT685a_I6tA" kind="Usage" supplier="_BMQlQOb8EeeTT685a_I6tA"/>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_BMQlT-b8EeeTT685a_I6tA" name="prodaas_gsxt_anhui" dataManager="_BMQlQOb8EeeTT685a_I6tA"/>
+</xmi:XMI>
