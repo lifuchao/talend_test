@@ -116,6 +116,167 @@
     </ownedElement>
     <ownedElement xsi:type="relational:TdTable" xmi:id="_Lbwq6ebyEeeZb42P6E7oGw" name="gsxt_companies_cmp" id="_LI280ObyEeeZb42P6E7oGw" label="gsxt_companies_cmp" tableType="TABLE">
       <taggedValue xmi:id="_Lbwq6ubyEeeZb42P6E7oGw" tag="Comment" value="company table"/>
+      <ownedElement xsi:type="orgomg.cwm.resource.relational:PrimaryKey" xmi:id="_RYMM4ObyEeeZb42P6E7oGw" name="PRIMARY" feature="_RYDC8ObyEeeZb42P6E7oGw"/>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDC8ObyEeeZb42P6E7oGw" name="cmp_entid" label="cmp_entid" uniqueKey="_RYMM4ObyEeeZb42P6E7oGw" length="64" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+        <taggedValue xmi:id="_RYDC8ebyEeeZb42P6E7oGw" tag="Comment" value="Company entid from beijing gsxt"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDC8ubyEeeZb42P6E7oGw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDC8-byEeeZb42P6E7oGw" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDC9ObyEeeZb42P6E7oGw" name="cmp_social_credit_id" label="cmp_social_credit_id" length="32" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_RYDC9ebyEeeZb42P6E7oGw" tag="Comment" value="统一社会信用代码 - social credit id"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDC9ubyEeeZb42P6E7oGw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDC9-byEeeZb42P6E7oGw" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDC-ObyEeeZb42P6E7oGw" name="cmp_register_id" label="cmp_register_id" length="32" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_RYDC-ebyEeeZb42P6E7oGw" tag="Comment" value="注册号 - gsxt register id"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDC-ubyEeeZb42P6E7oGw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDC--byEeeZb42P6E7oGw" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDC_ObyEeeZb42P6E7oGw" name="cmp_name" label="cmp_name" length="128" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <taggedValue xmi:id="_RYDC_ebyEeeZb42P6E7oGw" tag="Comment" value="名称"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDC_ubyEeeZb42P6E7oGw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDC_-byEeeZb42P6E7oGw" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDDAObyEeeZb42P6E7oGw" name="cmp_url" label="cmp_url" length="256" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <taggedValue xmi:id="_RYDDAebyEeeZb42P6E7oGw" tag="Comment" value="Company detail url"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDDAubyEeeZb42P6E7oGw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDDA-byEeeZb42P6E7oGw" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDDBObyEeeZb42P6E7oGw" name="cmp_type" label="cmp_type" length="32" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_RYDDBebyEeeZb42P6E7oGw" tag="Comment" value="类型"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDDBubyEeeZb42P6E7oGw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDDB-byEeeZb42P6E7oGw" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDDCObyEeeZb42P6E7oGw" name="cmp_legal_representive" label="cmp_legal_representive" length="128" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_RYDDCebyEeeZb42P6E7oGw" tag="Comment" value="法定代表人"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDDCubyEeeZb42P6E7oGw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDDC-byEeeZb42P6E7oGw" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDDDObyEeeZb42P6E7oGw" name="cmp_businessman" label="cmp_businessman" length="128" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_RYDDDebyEeeZb42P6E7oGw" tag="Comment" value="经营者"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDDDubyEeeZb42P6E7oGw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDDD-byEeeZb42P6E7oGw" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDDEObyEeeZb42P6E7oGw" name="cmp_executive" label="cmp_executive" length="128" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_RYDDEebyEeeZb42P6E7oGw" tag="Comment" value="负责人"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDDEubyEeeZb42P6E7oGw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDDE-byEeeZb42P6E7oGw" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDDFObyEeeZb42P6E7oGw" name="cmp_organization_type" label="cmp_organization_type" length="16" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_RYDDFebyEeeZb42P6E7oGw" tag="Comment" value="组成形式"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDDFubyEeeZb42P6E7oGw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDDF-byEeeZb42P6E7oGw" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDDGObyEeeZb42P6E7oGw" name="cmp_capital" label="cmp_capital" length="32" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_RYDDGebyEeeZb42P6E7oGw" tag="Comment" value="注册资本"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDDGubyEeeZb42P6E7oGw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDDG-byEeeZb42P6E7oGw" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDDHObyEeeZb42P6E7oGw" name="cmp_founded" label="cmp_founded" length="10" sourceType="DATETIME" talendType="id_Date">
+        <taggedValue xmi:id="_RYDDHebyEeeZb42P6E7oGw" tag="Comment" value="成立日期"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDDHubyEeeZb42P6E7oGw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDDH-byEeeZb42P6E7oGw" name="DATE" numericPrecisionRadix="10" javaDataType="91" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDDIObyEeeZb42P6E7oGw" name="cmp_address" label="cmp_address" length="512" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_RYDDIebyEeeZb42P6E7oGw" tag="Comment" value="住所"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDDIubyEeeZb42P6E7oGw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDDI-byEeeZb42P6E7oGw" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDDJObyEeeZb42P6E7oGw" name="cmp_business_start" label="cmp_business_start" length="10" sourceType="DATETIME" talendType="id_Date">
+        <taggedValue xmi:id="_RYDDJebyEeeZb42P6E7oGw" tag="Comment" value="营业期限自"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDDJubyEeeZb42P6E7oGw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDDJ-byEeeZb42P6E7oGw" name="DATE" numericPrecisionRadix="10" javaDataType="91" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDDKObyEeeZb42P6E7oGw" name="cmp_business_end" label="cmp_business_end" length="10" sourceType="DATETIME" talendType="id_Date">
+        <taggedValue xmi:id="_RYDDKebyEeeZb42P6E7oGw" tag="Comment" value="营业期限至"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDDKubyEeeZb42P6E7oGw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDDK-byEeeZb42P6E7oGw" name="DATE" numericPrecisionRadix="10" javaDataType="91" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDDLObyEeeZb42P6E7oGw" name="cmp_business" label="cmp_business" length="65535" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_RYDDLebyEeeZb42P6E7oGw" tag="Comment" value="经营范围"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDDLubyEeeZb42P6E7oGw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDDL-byEeeZb42P6E7oGw" name="TEXT" numericPrecisionRadix="10" javaDataType="-1" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDDMObyEeeZb42P6E7oGw" name="cmp_registered_place" label="cmp_registered_place" length="64" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_RYDDMebyEeeZb42P6E7oGw" tag="Comment" value="登记机关"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDDMubyEeeZb42P6E7oGw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDDM-byEeeZb42P6E7oGw" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDDNObyEeeZb42P6E7oGw" name="cmp_verified" label="cmp_verified" length="10" sourceType="DATETIME" talendType="id_Date">
+        <taggedValue xmi:id="_RYDDNebyEeeZb42P6E7oGw" tag="Comment" value="核准日期"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDDNubyEeeZb42P6E7oGw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDDN-byEeeZb42P6E7oGw" name="DATE" numericPrecisionRadix="10" javaDataType="91" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDDOObyEeeZb42P6E7oGw" name="cmp_status" label="cmp_status" length="16" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_RYDDOebyEeeZb42P6E7oGw" tag="Comment" value="登记状态"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDDOubyEeeZb42P6E7oGw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDDO-byEeeZb42P6E7oGw" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDDPObyEeeZb42P6E7oGw" name="cmp_revoked" label="cmp_revoked" length="10" sourceType="DATETIME" talendType="id_Date">
+        <taggedValue xmi:id="_RYDDPebyEeeZb42P6E7oGw" tag="Comment" value="Revoked date"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDDPubyEeeZb42P6E7oGw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDDP-byEeeZb42P6E7oGw" name="DATE" numericPrecisionRadix="10" javaDataType="91" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDDQObyEeeZb42P6E7oGw" name="cmp_md5_0" label="cmp_md5_0" length="32" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_RYDDQebyEeeZb42P6E7oGw" tag="Comment" value="MD5 hash code for information fields"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDDQubyEeeZb42P6E7oGw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDDQ-byEeeZb42P6E7oGw" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDDRObyEeeZb42P6E7oGw" name="cmp_changed" label="cmp_changed" sourceType="BIT" talendType="id_Boolean">
+        <taggedValue xmi:id="_RYDDRebyEeeZb42P6E7oGw" tag="Comment" value="Whether there is an information change, i.e. md5 changed"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDDRubyEeeZb42P6E7oGw" body="1" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDDR-byEeeZb42P6E7oGw" name="BIT" numericPrecisionRadix="10" javaDataType="-7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDDSObyEeeZb42P6E7oGw" name="cmp_processed" label="cmp_processed" sourceType="BIT" talendType="id_Boolean">
+        <taggedValue xmi:id="_RYDDSebyEeeZb42P6E7oGw" tag="Comment" value="Whether the data has been processed since last changes/found/run"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDDSubyEeeZb42P6E7oGw" body="0" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDDS-byEeeZb42P6E7oGw" name="BIT" numericPrecisionRadix="10" javaDataType="-7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDDTObyEeeZb42P6E7oGw" name="cmp_updated" label="cmp_updated" sourceType="BIT" talendType="id_Boolean">
+        <taggedValue xmi:id="_RYDDTebyEeeZb42P6E7oGw" tag="Comment" value="If the record has been updated"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDDTubyEeeZb42P6E7oGw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDDT-byEeeZb42P6E7oGw" name="BIT" numericPrecisionRadix="10" javaDataType="-7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDDUObyEeeZb42P6E7oGw" name="cmp_first_run" label="cmp_first_run" length="19" sourceType="DATETIME" talendType="id_Date" nullable="false">
+        <taggedValue xmi:id="_RYDDUebyEeeZb42P6E7oGw" tag="Comment" value="First run date"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDDUubyEeeZb42P6E7oGw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDDU-byEeeZb42P6E7oGw" name="DATETIME" numericPrecisionRadix="10" javaDataType="93"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDDVObyEeeZb42P6E7oGw" name="cmp_last_run" label="cmp_last_run" length="19" sourceType="DATETIME" talendType="id_Date" nullable="false">
+        <taggedValue xmi:id="_RYDDVebyEeeZb42P6E7oGw" tag="Comment" value="Last run date"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDDVubyEeeZb42P6E7oGw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDDV-byEeeZb42P6E7oGw" name="DATETIME" numericPrecisionRadix="10" javaDataType="93"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDDWObyEeeZb42P6E7oGw" name="cmp_insert_time" label="cmp_insert_time" length="19" sourceType="DATETIME" talendType="id_Date" nullable="false">
+        <taggedValue xmi:id="_RYDDWebyEeeZb42P6E7oGw" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDDWubyEeeZb42P6E7oGw" body="CURRENT_TIMESTAMP" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDDW-byEeeZb42P6E7oGw" name="TIMESTAMP" numericPrecisionRadix="10" javaDataType="93"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDDXObyEeeZb42P6E7oGw" name="cmp_update_time" label="cmp_update_time" length="19" sourceType="DATETIME" talendType="id_Date">
+        <taggedValue xmi:id="_RYDDXebyEeeZb42P6E7oGw" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDDXubyEeeZb42P6E7oGw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDDX-byEeeZb42P6E7oGw" name="DATETIME" numericPrecisionRadix="10" javaDataType="93" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDDYObyEeeZb42P6E7oGw" name="cmp_sync_flag" label="cmp_sync_flag" sourceType="BIT" talendType="id_Boolean">
+        <taggedValue xmi:id="_RYDDYebyEeeZb42P6E7oGw" tag="Comment" value=""/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDDYubyEeeZb42P6E7oGw" body="0" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDDY-byEeeZb42P6E7oGw" name="BIT" numericPrecisionRadix="10" javaDataType="-7" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDDZObyEeeZb42P6E7oGw" name="cmp_history_name" label="cmp_history_name" length="1000" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_RYDDZebyEeeZb42P6E7oGw" tag="Comment" value="历史名称"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDDZubyEeeZb42P6E7oGw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDDZ-byEeeZb42P6E7oGw" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDDaObyEeeZb42P6E7oGw" name="cmp_update_count" label="cmp_update_count" length="10" sourceType="INT" talendType="id_Integer">
+        <taggedValue xmi:id="_RYDDaebyEeeZb42P6E7oGw" tag="Comment" value="该企业更新次数"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDDaubyEeeZb42P6E7oGw" body="1" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDDa-byEeeZb42P6E7oGw" name="INT" numericPrecisionRadix="10" javaDataType="4" nullable="columnNullable"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_RYDDbObyEeeZb42P6E7oGw" name="cmp_notice" label="cmp_notice" length="255" sourceType="VARCHAR" talendType="id_String">
+        <taggedValue xmi:id="_RYDDbebyEeeZb42P6E7oGw" tag="Comment" value="公告信息"/>
+        <initialValue xsi:type="relational:TdExpression" xmi:id="_RYDDbubyEeeZb42P6E7oGw" language="COLUMN_DEF"/>
+        <sqlDataType xmi:id="_RYDDb-byEeeZb42P6E7oGw" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+      </feature>
     </ownedElement>
     <ownedElement xsi:type="relational:TdTable" xmi:id="_Lbwq6-byEeeZb42P6E7oGw" name="gsxt_company_abnormal_cbn" id="_LJZIUObyEeeZb42P6E7oGw" label="gsxt_company_abnormal_cbn" tableType="TABLE">
       <taggedValue xmi:id="_Lbwq7ObyEeeZb42P6E7oGw" tag="Comment" value="company_abnormal table"/>
