@@ -48,7 +48,7 @@
       <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDbObyEeeZb42P6E7oGw"/>
     </context>
     <results xmi:id="_RMrgd-byEeeZb42P6E7oGw">
-      <resultMetadata xmi:id="_RMrgeObyEeeZb42P6E7oGw" executionDate="2017-12-22T16:32:03.807+0800" executionDuration="1555" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+      <resultMetadata xmi:id="_RMrgeObyEeeZb42P6E7oGw" executionDate="2017-12-22T16:34:36.342+0800" executionDuration="1665" message="" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
       <indicators xsi:type="dataquality.indicators.columnset:SimpleStatIndicator" xmi:id="_RMrgeebyEeeZb42P6E7oGw" count="50" computed="true" storeData="true" listRows="ACED0005737200136A6176612E7574696C2E41727261794C6973747881D21D99C7619D03000149000473697A65787000000001770400000001757200135B4C6A6176612E6C616E672E4F626A6563743B90CE589F1073296C02000078700000000078" uniqueCount="50" distinctCount="50">
         <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Multiple_Column_Simple_Statistics_0.1.definition#_JoeMkM-jEd6qN5aKpPNGTg"/>
         <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDC8ObyEeeZb42P6E7oGw"/>
@@ -84,6 +84,7 @@
         <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDaObyEeeZb42P6E7oGw"/>
         <analyzedColumns xsi:type="relational:TdColumn" href="../../metadata/connections/crack1_mysql_conn_0.1.item#_RYDDbObyEeeZb42P6E7oGw"/>
         <rowCountIndicator xmi:id="_RMt8sObyEeeZb42P6E7oGw" count="50" computed="true">
+          <parameters xmi:id="_yu4r0ObyEeeZb42P6E7oGw"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
           <builtInIndicatorDefinition xmi:id="_lmLJIObyEeeZb42P6E7oGw" name="Row Count" label="Row Count">
             <taggedValue xmi:id="_lmLJIebyEeeZb42P6E7oGw" tag="Description" value="counts the number of rows"/>
@@ -106,6 +107,7 @@
           </builtInIndicatorDefinition>
         </uniqueCountIndicator>
         <distinctCountIndicator xmi:id="_RMt8subyEeeZb42P6E7oGw" count="50" computed="true" distinctValueCount="50">
+          <parameters xmi:id="_z25cwObyEeeZb42P6E7oGw"/>
           <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
           <builtInIndicatorDefinition xmi:id="_lmVhMObyEeeZb42P6E7oGw" name="Distinct Count" label="Distinct Count">
             <taggedValue xmi:id="_lmVhMebyEeeZb42P6E7oGw" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
