@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:DatabaseConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_CahTsObyEeeZb42P6E7oGw" name="crack1_mysql_conn" id="_2NlcwObxEeeZb42P6E7oGw" label="crack1_mysql_conn" DatabaseType="MySQL" DriverClass="org.gjt.mm.mysql.Driver" URL="jdbc:mysql://54.223.148.118:3306/prodaas_gsxt_anhui?noDatetimeStringSync=true" dbVersionString="MYSQL_5" Port="3306" Username="root" Password="98fsLkUn+6QV6fg68eBSBCimPNfSCfas" ServerName="54.223.148.118" DatasourceName="" FileFieldName="" SID="prodaas_gsxt_anhui" SqlSynthax="SQL 语句须被指定" DbmsId="mysql_id" ProductId="MYSQL" AdditionalParams="noDatetimeStringSync=true" StandardSQL="true" SQLMode="false" UiSchema="">
+  <taggedValue xmi:id="_CahTsebyEeeZb42P6E7oGw" tag="Is Conn Need Reload" value="true"/>
+  <parameters xmi:id="_CahTsubyEeeZb42P6E7oGw" key="CONN_PARA_KEY_USERNAME" value="root"/>
+</TalendMetadata:DatabaseConnection>
