@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_ZYU6sextEeeYqoxtPMmwVQ" label="test_vbox" description="lfc test on vbox" language="java" technicalLabel="TEST_VBOX" creationDate="2017-12-29T15:19:59.475+0800" author="_ZYU6suxtEeeYqoxtPMmwVQ" productVersion="Talend Data Management Platform-6.4.1.20170623_1246" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/lifuchao/talend_test.git&quot;,&quot;login&quot;:&quot;lifuchao@prodaas.com&quot;,&quot;passwd&quot;:&quot;ASJ8MDx+FWklA1IUcJeDbQ==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI" bigData="false"/>
+  <TalendProperties:User xmi:id="_ZYU6suxtEeeYqoxtPMmwVQ" login="lifuchao@prodaas.com" firstName="fuhcao" lastName="li" type="DQ" additionnalData="{}"/>
+</xmi:XMI>
